@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.apprenda.com/SettingsXmlDoc">
+  <Settings>
+    <SettingDefinition name="Private Root" value="Apprenda.NET.TestApplication" />
+    <SettingDefinition name="Extention Filter" value=".sln;.vb;.cs;.h;.cpp;.pdb;.obj;.dep;.idb" />
+    <SettingDefinition name="Build Config" value="Debug - Any CPU" />
+    <SettingDefinition name="Archive Output Path" value="C:\code\apprenda_test_apps\net\src\NetArchive.zip" />
+    <SettingDefinition name="Application Provisioning Script" />
+    <SettingDefinition name="Tenant Provisioning Script" />
+    <SettingDefinition name="Services" value="" />
+  </Settings>
+</root>

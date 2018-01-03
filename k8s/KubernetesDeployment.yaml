@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: k8stester
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: k8stester
+    spec:
+      containers:
+      - name: k8stester
+        image: elustgarten/k8stester:0.1
+        ports:
+        - containerPort: 8080
